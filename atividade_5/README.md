@@ -33,4 +33,4 @@ Atualização Parcial de Veículos: Permite atualizar parcialmente os dados de u
 Documentação da API
 A documentação interativa da API está disponível através do Swagger. Para acessá-la, basta iniciar a aplicação e navegar até o seguinte endereço em seu navegador:
 
-http://localhost:8080/swagger-ui.html
+http://localhost:8081/swagger-ui.html
