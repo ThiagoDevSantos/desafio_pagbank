@@ -17,7 +17,7 @@ Swagger: Ferramenta utilizada para documentar a API de forma interativa e facili
 FRONT-END : HTML,CSS e JavaScript
 
 JUnit e Mockito: Frameworks utilizados para escrever e executar testes unitários na aplicação.
-Funcionalidades
+
 
 
 A API de Veículos oferece as seguintes funcionalidades:
@@ -33,7 +33,11 @@ Filtragem de Veículos: Permite filtrar os veículos com base em diversos crité
 Atualização Parcial de Veículos: Permite atualizar parcialmente os dados de um veículo, possibilitando a alteração de apenas alguns campos específicos.
 
 
+
 Documentação da API
 A documentação interativa da API está disponível através do Swagger. Para acessá-la, basta iniciar a aplicação e navegar até o seguinte endereço em seu navegador:
 
 http://localhost:8081/swagger-ui.html
+
+Requisições :
+http://localhost:8080/veiculos
