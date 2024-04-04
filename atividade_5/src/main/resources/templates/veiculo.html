@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD de Veículos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <section id="cadastro">
+        <h2>Cadastrar Veículo</h2>
+        <form id="veiculo-form" method="post">
+            <label for="marca">Marca:</label>
+            <input type="text" id="marca" required>
+            <label for="veiculo">Veículo:</label>
+            <input type="text" id="veiculo" required>
+            <label for="ano">Ano de Fabricação:</label>
+            <input type="number" id="ano" required>
+            <label for="cor">Cor:</label>
+            <input type="text" id="cor" required>
+            <label for="vendido">Vendido:</label>
+            <select id="vendido">
+                <option value="true">Sim</option>
+                <option value="false">Não</option>
+            </select>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+    <section id="lista">
+        <h2>Lista de Veículos</h2>
+        <ul id="veiculos-list"></ul>
+    </section>
+
+    <section id="atualizar-excluir" >
+        <h2>Atualizar / Excluir Veículo</h2>
+        <form id="atualizar-excluir-form" method="get">
+            <label for="id-atualizar">ID do Veículo:</label>
+            <input type="text" id="id-atualizar" required>
+            <label for="marca-atualizar">Nova Marca:</label>
+            <input type="text" id="marca-atualizar">
+            <label for="veiculo-atualizar">Novo Veículo:</label>
+            <input type="text" id="veiculo-atualizar">
+            <label for="ano-atualizar">Novo Ano:</label>
+            <input type="number" id="ano-atualizar">
+            <label for="cor-atualizar">Nova Cor:</label>
+            <input type="text" id="cor-atualizar">
+            <label for="vendido-atualizar">Vendido:</label>
+            <select id="vendido-atualizar">
+                <option value="true">Sim</option>
+                <option value="false">Não</option>
+            </select>
+            <button type="button" onclick="atualizarVeiculo()">Atualizar</button>
+            <button type="button" onclick="excluirVeiculo()">Excluir</button>
+        </form>
+    </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
