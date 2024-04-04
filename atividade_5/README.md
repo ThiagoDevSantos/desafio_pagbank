@@ -18,6 +18,8 @@ FRONT-END : HTML,CSS e JavaScript
 
 JUnit e Mockito: Frameworks utilizados para escrever e executar testes unitários na aplicação.
 Funcionalidades
+
+
 A API de Veículos oferece as seguintes funcionalidades:
 
 Cadastro de Veículos: Permite cadastrar novos veículos na base de dados.
@@ -29,6 +31,7 @@ Exclusão de Veículos: Permite excluir um veículo da base de dados.
 Filtragem de Veículos: Permite filtrar os veículos com base em diversos critérios, como não vendidos, ano de fabricação, fabricante, cor e registros da última semana.
 
 Atualização Parcial de Veículos: Permite atualizar parcialmente os dados de um veículo, possibilitando a alteração de apenas alguns campos específicos.
+
 
 Documentação da API
 A documentação interativa da API está disponível através do Swagger. Para acessá-la, basta iniciar a aplicação e navegar até o seguinte endereço em seu navegador:
